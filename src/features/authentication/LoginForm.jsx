@@ -1,10 +1,9 @@
 import { useState } from "react";
 import Button from "../../ui/Button";
 import Form from "../../ui/Form";
-import Input from "../../ui/Input";
 import SpinnerMini from "../../ui/SpinnerMini";
 import FormRowVertical from "../../ui/FormRowVertical";
-
+import Input from "../../ui/input";
 import { useLogin } from "./useLogin";
 
 function LoginForm() {

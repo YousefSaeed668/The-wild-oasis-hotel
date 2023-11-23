@@ -2,11 +2,9 @@ import styled from "styled-components";
 import { format, isToday } from "date-fns";
 import { formatCurrency } from "../../utils/helpers";
 import {
-  HiArrowDownCircle,
   HiArrowDownOnSquare,
   HiArrowUpOnSquare,
   HiEye,
-  HiSquare2Stack,
   HiTrash,
 } from "react-icons/hi2";
 import { useNavigate } from "react-router-dom";

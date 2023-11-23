@@ -4,12 +4,12 @@ import Menus from "../../ui/Menus";
 import Empty from "../../ui/Empty";
 import Spinner from "../../ui/Spinner";
 import { useBookings } from "./useBookings";
-import { useSearchParams } from "react-router-dom";
+
 import Pagination from "../../ui/Pagination";
 
 function BookingTable() {
-  const { isLoading, bookings, error, count } = useBookings();
-  const [searchParams] = useSearchParams();
+  const { isLoading, bookings, count } = useBookings();
+
   // 1) Filter
   // const filterValue = searchParams.get("status") || "all";
   // let filteredCabins;

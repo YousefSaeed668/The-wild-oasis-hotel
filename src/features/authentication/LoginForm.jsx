@@ -3,7 +3,8 @@ import Button from "../../ui/Button";
 import Form from "../../ui/Form";
 import SpinnerMini from "../../ui/SpinnerMini";
 import FormRowVertical from "../../ui/FormRowVertical";
-import Input from "../../ui/input";
+import Input from "../../ui/Input";
+
 import { useLogin } from "./useLogin";
 
 function LoginForm() {
